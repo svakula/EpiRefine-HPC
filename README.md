@@ -1,5 +1,11 @@
 # EpiRefine-HPC
 
+<p align="center">
+  <img src="docs/assets/adaptive-strain-iterations.gif"
+       alt="Two anonymized epitaxial-strain response contours becoming progressively refined over five adaptive iterations"
+       width="960">
+</p>
+
 EpiRefine-HPC is an auditable workflow for adaptive two-dimensional epitaxial-strain
 sampling with VASP and Slurm. It concentrates a limited calculation budget near sharp
 changes in a computed response, while preserving the source geometry, sampling
