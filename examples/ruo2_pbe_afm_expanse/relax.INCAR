@@ -1,0 +1,17 @@
+SYSTEM = RuO2 PBE AFM epitaxial relax
+GGA = PE
+PREC = Accurate
+EDIFF = 1E-6
+EDIFFG = 1E-4
+IBRION = 2
+NSW = 200
+ISPIN = 2
+MAGMOM = 2 -2 2 -2 8*0
+ISYM = 0
+ISMEAR = 1
+SIGMA = 0.20
+LORBIT = 11
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+# The referenced workflow uses mpivasp64s.rlxZ to relax z while preserving a/b.
+# Do not add a generic ISIF tag without checking the executable's contract.

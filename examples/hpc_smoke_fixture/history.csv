@@ -1,0 +1,2 @@
+plane,eps_a_percent,eps_b_percent,ru_mean_abs_muB,parse_status,source_type,relax_contcar,run_dir,source_iteration
+001,0.0,0.0,0.20,ok,fixture_static,geometry/CONTCAR,fixture/001/zero,fixture

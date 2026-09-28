@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epirefine-hpc"
+version = "0.4.0"
+description = "Auditable adaptive sampling for epitaxial strain and heterostructure calculations"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+local = ["numpy>=1.23", "scipy>=1.9", "matplotlib>=3.6"]
+heterostructure = ["numpy>=1.23", "ase>=3.23"]
+analysis = ["numpy>=1.23", "scipy>=1.9", "matplotlib>=3.6", "ase>=3.23"]
+test = ["numpy>=1.23", "scipy>=1.9", "matplotlib>=3.6"]
+
+[project.scripts]
+epirefine = "epirefine.cli:main"
+epirefine-tui = "epirefine.tui:main"
+
+[tool.setuptools]
+packages = ["epirefine"]
+
+[tool.setuptools.package-data]
+epirefine = ["templates/*", "data/*.md"]

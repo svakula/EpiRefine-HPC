@@ -1,0 +1,14 @@
+SYSTEM = {{SYSTEM}} static
+# Research template: keep settings consistent with relaxations and convergence tests.
+ENCUT = 520
+PREC = Accurate
+EDIFF = 1E-7
+IBRION = -1
+NSW = 0
+ISPIN = 2
+LREAL = .FALSE.
+ISMEAR = 0
+SIGMA = 0.05
+LWAVE = .FALSE.
+LCHARG = .TRUE.
+LORBIT = 11

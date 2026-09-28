@@ -1,0 +1,19 @@
+{
+  "schema": "epirefine.config.v1",
+  "system": "RuO2 PBE AFM epitaxial strain",
+  "planes": ["001", "100"],
+  "strain_bounds_percent": [-10.0, 10.0],
+  "budget": 50,
+  "low_moment": 0.05,
+  "high_moment": 0.15,
+  "min_response_span": 0.18,
+  "max_unresolved_diameter_percent": 0.55,
+  "min_triangle_quality": 0.01,
+  "boundary_spacing_percent": 0.45,
+  "pocket_spacing_percent": 0.12,
+  "barycentric_divisions": 18,
+  "moment_species": ["Ru"],
+  "seed": 20260928,
+  "relax_vasp_command": "mpivasp64s.rlxZ",
+  "static_vasp_command": "mpivasp64s"
+}

@@ -1,0 +1,2 @@
+plane,eps_a_percent,eps_b_percent,eps_a,eps_b,proposal_rank,acquisition_channel,source_iteration
+001,0.5,-0.5,0.005,-0.005,1,boundary_gradient,smoke

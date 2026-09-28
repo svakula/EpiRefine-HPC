@@ -1,0 +1,16 @@
+SYSTEM = RuO2 PBE AFM epitaxial static
+GGA = PE
+PREC = Accurate
+EDIFF = 1E-7
+IBRION = -1
+NSW = 0
+ISPIN = 2
+MAGMOM = 2 -2 2 -2 8*0
+ISTART = 0
+ICHARG = 2
+ISYM = 0
+ISMEAR = 1
+SIGMA = 0.20
+LORBIT = 11
+LWAVE = .FALSE.
+LCHARG = .TRUE.
