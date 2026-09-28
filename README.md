@@ -31,7 +31,7 @@ git clone <repository-url> EpiRefine-HPC
 cd EpiRefine-HPC
 export PATH="$PWD/bin:$PATH"
 
-epirefine init /path/to/RuO2-study --system RuO2
+epirefine init /path/to/study --system RuO2
 epirefine-tui --project /path/to/RuO2-study
 ```
 
@@ -118,7 +118,6 @@ Keep POTCAR outside the repository in secure site storage and add it through
 - [Python and companion-tool API](docs/API.md)
 - [Project layout](epirefine/data/PROJECT_LAYOUT.md)
 - [Tool ecosystem](docs/TOOL_ECOSYSTEM.md)
-- [HPC smoke-test record](docs/HPC_SMOKE_TEST.md)
 
 This is research software. Inspect generated inputs and dry-run reports before using
 computational resources or relying on scientific results.
